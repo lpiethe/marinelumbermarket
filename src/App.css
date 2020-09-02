@@ -1,33 +1,46 @@
 .App {
   text-align: center;
+  background-color: rgb(236, 233, 233);
 }
 
 .header {
   background-image: url('.//lumberPic2.jpg');
+  justify-content: left;
   text-align: center;
-  justify-content: center;
-  background-position: sticky;
-  margin-bottom: -8px;
+  max-width: 100%;
+  height: 350px;
+  margin-top: -70px;
 }
 
 .Navigation {
   text-align: center;
-  background-color: rgba(177, 27, 0, 0.829);
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(38, 46, 71, 0.829);
   list-style-type: none;
   width: 100%;
-  padding-right: 50px;
-
+  margin-top: -32px;
 }
 
 .navlink  {
   color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style-type: none;
   text-decoration-line: none;
+  justify-content: center;
   text-align: center;
   font-size: 20px;
+  width: 100%;
+  margin-bottom: 0px;
 }
 
 .navlink:hover {
   color: rgb(21, 55, 94);
+}
+
+.homePage  {
+  margin-top: 20px;
+  color:rgba(38, 46, 71, 0.829);
+  text-align: center;
+  justify-content: center;
 }
