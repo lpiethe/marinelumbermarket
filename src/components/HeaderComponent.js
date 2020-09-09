@@ -34,6 +34,23 @@ class Header extends Component {
                                  <NavLink href='/projects' className='navlink'>Our Company</NavLink>
                              </NavItem>
                              <UncontrolledDropdown className='navitem'>
+{/* =======
+                <Jumbotron fluid className='header'>
+                        <img src={require("../marineLumberLogo2.png")} width='650' />       
+                </Jumbotron>
+                <Navbar  color='faded' light expand='md' className='Navigation' sticky='top'>
+                <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
+                    <Collapse isOpen={this.state.isNavOpen} navbar>
+                      
+                             <NavItem>
+                                 <NavLink href='/' className='navlink'>Home</NavLink>
+                             </NavItem>
+                             <NavItem>
+                                 <NavLink href='/projects' className='navlink'>Our Company</NavLink>
+                             </NavItem>
+
+                             <UncontrolledDropdown> */}
+
                                  <DropdownToggle nav caret className='navlink'>
                                      Products
                                  {/* <NavLink className='navlink' href='/about'>Products</NavLink> */}
@@ -62,6 +79,7 @@ class Header extends Component {
                                      </DropdownItem>
                                  </DropdownMenu>
                              </UncontrolledDropdown>
+
                              <NavItem className='navitem'>
                                  <NavLink href='/contact' className='navlink'>Contact</NavLink>
                              </NavItem>
