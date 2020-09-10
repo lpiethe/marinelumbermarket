@@ -24,7 +24,7 @@ class Header extends Component {
                     </Row>         
                 </Container>
                 <Navbar  light expand='md' className='Navigation' sticky='top'>
-                <NavbarBrand><img src={require("../marineLumberLogo.png")} width='155' /></NavbarBrand>
+               <a href='/'> <NavbarBrand><img src={require("../marineLumberLogo.png")} width='155' /></NavbarBrand></a>
                 <NavbarToggler onClick={this.toggleNav} className="mr-2" color='white'/>
                     <Collapse isOpen={this.state.isNavOpen} navbar navbar-dark>
                              <NavItem className='navitem'>
