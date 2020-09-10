@@ -8,7 +8,7 @@ class Footer extends Component {
                 <Container fluid >
                     <Row className='footer'>
                         <Col xs='12' >
-                            <h6>MARINE LUMBER MARKET CONTACT US</h6>
+                            <h6>MARINE LUMBER MARKET <a href ='/contact'> CONTACT US </a></h6>
                         </Col>
                     </Row>
                     <Row className='footer2'>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Col, Row, Navbar, Nav, NavItem, NavLink,NavbarToggler, Collapse, Jumbotron, UncontrolledDropdown, DropdownToggle, DropdownItem, DropdownMenu, NavbarBrand} from 'reactstrap';
+import {Container, Col, Row, Navbar, Nav, NavItem, NavLink,NavbarToggler, Collapse, Jumbotron, UncontrolledDropdown, DropdownToggle, DropdownItem, DropdownMenu, NavbarBrand, Button} from 'reactstrap';
 
 class Header extends Component {
     constructor(props){
@@ -20,36 +20,21 @@ class Header extends Component {
             <React.Fragment>
                 <Container fluid className='header'>
                     <Row>
-                    <br></br><i class="fa fa-phone" aria-hidden="true">   Call us today!</i> 
+                   <Button><i class="fa fa-phone" aria-hidden="true"> Call us today!</i> </Button>
                     </Row>         
                 </Container>
                 <Navbar  light expand='md' className='Navigation' sticky='top'>
-               <a href='/'> <NavbarBrand><img src={require("../marineLumberLogo.png")} width='155' /></NavbarBrand></a>
+               <a href='/'> <NavbarBrand><img src={require("../marineLumberLogo3.png")} width='155' /></NavbarBrand></a>
                 <NavbarToggler onClick={this.toggleNav} className="mr-2" color='white'/>
                     <Collapse isOpen={this.state.isNavOpen} navbar navbar-dark>
                              <NavItem className='navitem'>
                                  <NavLink href='/' className='navlink'>Home</NavLink>
                              </NavItem>
                              <NavItem className='navitem'>
-                                 <NavLink href='/projects' className='navlink'>Our Company</NavLink>
+                                 <NavLink href='/about' className='navlink'>Our Company</NavLink>
                              </NavItem>
                              <UncontrolledDropdown className='navitem'>
-{/* =======
-                <Jumbotron fluid className='header'>
-                        <img src={require("../marineLumberLogo2.png")} width='650' />       
-                </Jumbotron>
-                <Navbar  color='faded' light expand='md' className='Navigation' sticky='top'>
-                <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
-                    <Collapse isOpen={this.state.isNavOpen} navbar>
-                      
-                             <NavItem>
-                                 <NavLink href='/' className='navlink'>Home</NavLink>
-                             </NavItem>
-                             <NavItem>
-                                 <NavLink href='/projects' className='navlink'>Our Company</NavLink>
-                             </NavItem>
 
-                             <UncontrolledDropdown> */}
 
                                  <DropdownToggle nav caret className='navlink'>
                                      Products
@@ -84,7 +69,7 @@ class Header extends Component {
                                  <NavLink href='/contact' className='navlink'>Contact</NavLink>
                              </NavItem>
                              <NavItem className='navitem'>
-                                 <NavLink href='/contact' className='navlink'>Glossary of Lumber Terms</NavLink>
+                                 <NavLink href='/Glossary' className='navlink'>Glossary of Lumber Terms</NavLink>
                              </NavItem>
                     </Collapse>
                 </Navbar>

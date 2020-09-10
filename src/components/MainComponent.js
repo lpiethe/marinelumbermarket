@@ -6,6 +6,7 @@ import Footer from './FooterComponent';
 import About from './AboutComponent';
 import Product from './ProductComponent';
 import Contact from './ContactComponent';
+import Glossary from './GlossaryComponent';
 
 class Main extends Component {
     render() {
@@ -18,13 +19,13 @@ class Main extends Component {
             <Router>
                 <div>
                 <Header/>
-                <Switch>
-                    <Route exact path="/About" component={About}/>  
-                    <Route exact path="/Product" component={Product}/>
-                    <Route exact path="/Contact" component={Contact}/> 
-                    <Route exact path="/" component={Home}/> 
-                </Switch>
-        
+                    <Switch>
+                        <Route exact path="/About" component={About}/>  
+                        <Route exact path="/Product" component={Product}/>
+                        <Route exact path="/Contact" component={Contact}/> 
+                        <Route exact path="/" component={Home}/> 
+                        <Route exact path="/Glossary" component={Glossary}/>
+                    </Switch>
                 <Footer/>
                 </div>
             </Router>
