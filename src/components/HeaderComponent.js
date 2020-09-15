@@ -19,8 +19,8 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <Container fluid className='header'>
-                    <Row>
-                   <Button><i class="fa fa-phone" aria-hidden="true"> Call us today!</i> </Button>
+                    <Row className='callUs'>
+                   <a href='tel: +1234567890'><i class="fa fa-phone" aria-hidden="true"> CALL US TODAY!</i></a>
                     </Row>         
                 </Container>
                 <Navbar  light expand='md' className='Navigation' sticky='top'>

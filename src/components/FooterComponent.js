@@ -11,7 +11,7 @@ class Footer extends Component {
                             <h6>MARINE LUMBER MARKET <a href ='/contact'> CONTACT US </a></h6>
                         </Col>
                     </Row>
-                    <Row className='footer2'>
+                    <Row className='footer'>
                         <Col xs='12' >
                             <p><i class="fa fa-copyright" aria-hidden="true"></i>2020 by Marine Lumber Market. All rights reserved</p>
                         </Col>
