@@ -110,6 +110,12 @@
   margin: auto;
 }
 
+.sliderimg {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
 /* SLIDESHOW STYLES */
 
 /*====== WIDTH ======*/

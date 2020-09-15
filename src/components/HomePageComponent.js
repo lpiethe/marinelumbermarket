@@ -1,17 +1,19 @@
 import React, {Component} from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import MainSlide from './Slideshow/MainSlideshow';
+// import MainSlide from './Slideshow/MainSlideshow';
+import AliceSlideshow from './AliceSlideshow';
 
 
 class Home extends Component {
     render() {
         return(
             <React.Fragment>
-        
-               
+                <Container fluid>
+                <AliceSlideshow />
+                </Container>
                 <Container fluid className='homePage2'>
                     <Row className='homePage3'>
-                    <Col>
+                        <Col>
                         <img src={require("../measurePic.jpg")} width='700'/>
                         </Col>
                         <Col>
@@ -34,6 +36,7 @@ class Home extends Component {
                         </Col>
                     </Row>
                 </Container>
+                
             </React.Fragment>
         );
     }
