@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import image1 from '../measurePic.jpg';
-import image2 from '../chemonite.jpg';
+import image1 from '../measurePic.png';
+import image2 from '../chemonite.png';
 import image3 from '../measurePic.jpg';
 import image4 from '../measurePic.jpg';
+import { Container } from 'reactstrap';
 
 class AliceSlideshow extends Component {
     render() {
         return(
-            <div>
+            <Container fluid>
 <AliceCarousel 
     autoPlay 
-    autoPlayInterval="3000"
+    autoPlayInterval="2000"
     autoPlayDirection="rtl"
     autoPlay={true}
     fadeOutAnimation={true}
@@ -25,7 +26,7 @@ class AliceSlideshow extends Component {
       <img src={image3} className="sliderimg"/>
       <img src={image4} className="sliderimg"/>
 </AliceCarousel>
-            </div>
+            </Container>
         );
     }
 }

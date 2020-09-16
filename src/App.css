@@ -44,7 +44,6 @@
   justify-content: center;
 }
 
-
 .navlink:hover {
   color: rgb(21, 55, 94);
 }
@@ -114,8 +113,9 @@
 
 .sliderimg {
   width: 100%;
-  height: 550px;
+  height: 400px;
   object-fit: cover;
+  padding-bottom: -10px;
 }
 
 .glossaryTerms {
@@ -123,6 +123,11 @@
   justify-content: center;
 }
 
+.homePageList {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 25px;
+  background-color: darkgray;
+}
 /* SLIDESHOW STYLES */
 
 /*====== WIDTH ======*/
