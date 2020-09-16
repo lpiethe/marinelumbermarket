@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import image1 from '../measurePic.jpg';
-import image2 from '../measurePic.jpg';
+import image2 from '../chemonite.jpg';
 import image3 from '../measurePic.jpg';
 import image4 from '../measurePic.jpg';
 
@@ -17,6 +17,8 @@ class AliceSlideshow extends Component {
     fadeOutAnimation={true}
     mouseTrackingEnabled={true}
     disableAutoPlayOnAction={true}
+    buttonsDisabled={true}
+    dotsDisabled={true}
     >
       <img src={image1} className="sliderimg"/>
       <img src={image2} className="sliderimg"/>
