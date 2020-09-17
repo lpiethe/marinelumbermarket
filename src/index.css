@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Alegreya';
+  src: local('Alegreya'), url(./fonts/Alegreya-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bentham';
+  src: local('Benthem'), url(./fonts/Bentham-Regular.ttf) format('truetype');
+}
+

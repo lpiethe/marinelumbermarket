@@ -23,7 +23,7 @@ class Header extends Component {
                    <a href='tel: +1234567890'><i class="fa fa-phone" aria-hidden="true"> CALL US TODAY!</i></a>
                     </Row>         
                 </Container>
-                <Navbar  light expand='md' className='Navigation' sticky='top'>
+                <Navbar  light expand='md' className='Navigation'>
                <a href='/'> <NavbarBrand><img src={require("../marineLumberLogo3.png")} width='155' /></NavbarBrand></a>
                 <NavbarToggler onClick={this.toggleNav} className="mr-2" color='white'/>
                     <Collapse isOpen={this.state.isNavOpen} navbar navbar-dark>
