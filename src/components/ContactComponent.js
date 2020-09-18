@@ -7,8 +7,20 @@ class Contact extends Component {
             <React.Fragment>
                 <Container className='contactContainer'>
                     <Row>
+                        <Col className='contactHeader'>
+                        <h1>Contact Us</h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='contactAddress'>
+                        <h1>Marine Lumber Market</h1>
+                        <hr></hr>
+                        <p>Address
+                        <br></br>525 South Chicago Street
+                        <br></br>Seattle, WA 98101</p>
+                        </Col>
+                   
                         <Col xs='6' className='contactForm'>
-                        <h1>Contact</h1>
                             <Form>
                                 <FormGroup>
                                     <Label for='name'>Name</Label>

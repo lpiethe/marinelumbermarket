@@ -5,7 +5,7 @@ class Glossary extends Component {
     render () {
         return (
             <React.Fragment>
-            <Container className='glossaryTerms'>
+            <Container className='glossaryTerms' fluid>
                 <h2>Lumber Nomenclature and Definitions</h2>
                 <p>  
                     <a href='#jumpToA'>A</a>

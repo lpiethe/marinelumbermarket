@@ -114,7 +114,19 @@
   justify-items: center;
   width: 50%;
   margin: auto;
-  background-color: darkgray;
+  background-color: rgb(23, 18, 70);
+  color:white;
+  font-family: Bentham;
+}
+
+.contactHeader{
+  padding: 50px;
+  background-image: url('lumberPic2.jpg');
+  width: 100%;
+}
+
+.contactAddress{
+  text-align: left;
 }
 
 .aliceCarousel {
@@ -132,17 +144,23 @@
 }
 
 
-
-
 .glossaryTerms {
   text-align: center;
   justify-content: center;
+  color: rgb(23, 18, 70);
+}
+
+.glossaryTerms h2 {
+  font-family: Bentham;
+  background-image:url('lumberPic2.jpg');
+  padding: 40px;
 }
 
 .homePageList {
   font-family:Bentham;
   padding: 25px;
   background-color: rgb(32, 31, 49);
+  transition: transform .2s;
 }
 
 .homePageList h3 {
@@ -150,7 +168,15 @@
   margin: 40px;
   background-color: white;
   color: rgb(32, 31, 49);
+  text-shadow: 2px 2px 4px #434244;
+  
 }
+
+.homePageList h3:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
 /* SLIDESHOW STYLES */
 
 /*====== WIDTH ======*/
