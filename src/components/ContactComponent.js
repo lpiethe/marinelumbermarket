@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return(
             <React.Fragment>
-                <Container className='contactContainer'>
+                <Container className='contactContainer' fluid>
                     <Row>
                         <Col className='contactHeader'>
                         <h1>Contact Us</h1>
@@ -15,16 +15,20 @@ class Contact extends Component {
                         <Col className='contactAddress'>
                         <h1>Marine Lumber Market</h1>
                         <hr></hr>
-                        <p>Address
+                        <p><strong>Address</strong>
                         <br></br>525 South Chicago Street
                         <br></br>Seattle, WA 98101</p>
+
+                        <p><strong>Phone Number</strong>
+                        <br></br>425-251-8010</p>
                         </Col>
-                   
-                        <Col xs='6' className='contactForm'>
+                   </Row>
+                   <Row className='formContainer'>
+                        <Col xs='6' >
                             <Form>
-                                <FormGroup>
+                                <FormGroup >
                                     <Label for='name'>Name</Label>
-                                    <Input type='name' name='name' id='name' placeholder='Your Name Here'></Input>
+                                    <Input type='name' name='name' id='name'></Input>
                                     <Label for='phoneNumber'>Phone Number</Label>
                                     <Input type='phoneNumber' name='phoneNumber' id='phoneNumber'></Input>
                                     <Label for='inquiryReason'>Reason for Inquiry</Label>

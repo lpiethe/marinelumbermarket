@@ -50,16 +50,16 @@
   color: rgb(21, 55, 94);
 }
 
-/* .homePage  {
-  background-image: url('lumberPic2.jpg');
-  padding-top: 10px;
-  color:white;
+.homePage  {
+  background-color: rgb(210, 211, 214);
+  padding: 50px;
+  color:rgb(28, 24, 41);
   text-align: center;
   justify-content: center;
-  background-color: white;
   width: 100%;
   margin: 0 auto;
-} */
+  font-family: Bentham;
+} 
 
 /* .homePage2 {
   background-color: white;
@@ -72,12 +72,13 @@
 } */
 
 .homePage3 {
-  background-color: rgb(32, 31, 49);
+  background-color: rgb(34, 31, 65);
   padding-left: -15px;
   color: white;
   justify-content: center;
   font-family: Bentham;
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer {
@@ -117,15 +118,28 @@
   background-color: rgb(23, 18, 70);
   color:white;
   font-family: Bentham;
+  padding: 20px;
 }
 
 .contactHeader{
   padding: 50px;
   background-image: url('lumberPic2.jpg');
   width: 100%;
+  font-family: Bentham;
 }
 
 .contactAddress{
+  text-align: left;
+  font-family:Alegreya;
+  padding:30px;
+  margin-left: 30px;
+}
+
+.formContainer{
+  justify-content: center;
+  background-color: rgba(165, 165, 165, 0.479);
+  padding: 50px;
+  font-family: Algreya;
   text-align: left;
 }
 
@@ -133,7 +147,6 @@
   width: 100%;
   padding: 0;
   overflow: hidden;
-  
 }
 
 .sliderimg {
@@ -158,8 +171,7 @@
 
 .homePageList {
   font-family:Bentham;
-  padding: 25px;
-  background-color: rgb(32, 31, 49);
+  padding: 15px;
   transition: transform .2s;
 }
 
@@ -167,14 +179,13 @@
   padding: 10px;
   margin: 40px;
   background-color: white;
-  color: rgb(32, 31, 49);
-  text-shadow: 2px 2px 4px #434244;
+  color: rgb(41, 37, 59);
+  text-decoration: none;
   
 }
 
 .homePageList h3:hover {
   text-decoration: none;
-  transform: scale(1.1);
 }
 
 /* SLIDESHOW STYLES */
