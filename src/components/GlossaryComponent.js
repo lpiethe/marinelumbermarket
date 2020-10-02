@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
+
 class Glossary extends Component {
     render () {
         return (
@@ -56,6 +57,7 @@ class Glossary extends Component {
                         <p><strong>APA Trademark </strong>A registered trademark of the American Plywood Association. It signifies that a panel has been manufactured under their quality supervision and testing guidelines.</p>
 
                         <p><strong>Aspen</strong> Any of several hardwood species of poplar whose wood is used for pulp, in the manufacture of OSB, roofing shakes, and light-colored lumber.</p>
+
                         
                     <h4 id='jumpToB'>B.</h4>
                         <p><strong>Band Saw</strong> A saw consisting of a continuous piece of flexible steel used to cut logs into cants and to rip lumber.
